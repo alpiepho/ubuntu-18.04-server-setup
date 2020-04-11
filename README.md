@@ -26,8 +26,8 @@ The following [link](https://www.bonusbits.com/wiki/HowTo:Add_Missing_or_Custom_
 
 ## Install Basic Tools
 
-- Chrome
-- VS Code
+- Chrome - use Google to find install, very easy
+- VS Code - follow [this](https://code.visualstudio.com/docs/setup/linux)
 
 
 ## Install VNC Remote Desktop
@@ -38,12 +38,7 @@ Ubuntu 18 already has VNC installed.  You just need to enable it and possible di
 - click on Screen Sharing, set password and network
 - you may have "encrpytion" errors, if you are certain of your use of VNC behind fireware, can disable this
   - https://ubuntuforums.org/showthread.php?t=2391847
-  - or: gsettings set org.gnome.Vino require-encryption false
-
-
-
-
-
+  - or: "gsettings set org.gnome.Vino require-encryption false"
 
 
 ## Install VPN
@@ -71,13 +66,8 @@ need to relogin for groups
 
 
 TODO:
-add these notes to github, reformat as README.md
 prompt
-install code
-https://code.visualstudio.com/docs/setup/linux
 
-install chrome
-google chrome, download, run it
 
 
 
