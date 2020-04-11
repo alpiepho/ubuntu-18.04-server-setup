@@ -50,6 +50,10 @@ node
 puppetteer?
 
 arduino from linux?
+https://www.arduino.cc/en/guide/linux
+arduino from vsocde
+
+
 via vscode?
 
 
