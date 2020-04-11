@@ -28,6 +28,11 @@ To install Ubuntu:
 - Chrome
 - VS Code
 
+
+## Install VNC Remote Desktop
+
+## Install VPN
+
 ## Install KVM
 
 ## Install Docker
