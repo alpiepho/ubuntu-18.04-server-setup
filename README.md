@@ -1,14 +1,29 @@
 # ubuntu-18.04-server-setup
 Notes and tools to set up Ubuntu 18.04 development system with KVM etc.
 
+## Create USB Stick with Ubuntu 18
+
+To install Ubuntu:
+
+- download Ubuntu [here](http://releases.ubuntu.com/)
+- on Mac, used ["Etcher"](https://www.balena.io/etcher/) to burn image
+- (tried use micro SD for Raspberry Pi in holder, but that failed, recooment USB stick)
+- boot PC/Notebook with SD card inserted
+- might need hardware Setup keys to boot from usb
+- run thru normal install
+- did not configure Wifi or download during install (for simplicity)
+
+After the install and first boot:
+
+- (Wifi Settings from top right) enable wifi and enter credentials
+- (from Settings app) disable various power settings
+- (Gui) software update
+- (terminal) sudo apt-get update
+- (terminal) sudo apt-get upgrade
+
+
 <pre>
 
-create ubuntu 18 and install
-enable wifi
-disable various power settings
-gui software update
-sudo apt-get update
-sudo apt-get upgrad
 
 install kvm:
 https://help.ubuntu.com/community/KVM/Installation
