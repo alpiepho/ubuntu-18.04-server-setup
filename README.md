@@ -60,13 +60,21 @@ TBD
 
 ## Install Arduino IDE
 
-TBD
-<pre>
-arduino from linux?
+### Arduino UNO Board
+Google arduino from linux and you will find: [https://www.arduino.cc/en/guide/linux](https://www.arduino.cc/en/guide/linux).
+
+Installation was easy.  Did need to follow step to change group on /dev/ttyAMT0.  I aslo had to manually create the /usr/local/bin/arduino symlink, since the install script run from sudo would hang.  (sudo ln -s <path to arduino> /usr/local/bin/arduino
+  
+You can also run Arduino directly from the VS Code IDE.  Look for the plugin "Ardinuo for VS Code" from Microsoft.  It's a little weird to configure util you realize that opening a .ino file shows controls along the bottom pane.  It does require the default Arduino IDE to be installed.
+
 https://www.arduino.cc/en/guide/linux
 arduino from vsocde
 </pre>
 
+### Arduino ESP32 Board
+This is different board (the step up from the ESP8266) that supports Arduino programming.  On a Mac, this required a legacy driver.  On Linux:
+
+TBD
 
 ## Install Node and Puppeteer
 
@@ -79,6 +87,10 @@ TBD
 - setup kvm for kali (or virtualbox?)
 - install and try ansible
 - puppetteer?
+- arduino IDE/VS Code with ESP32 board
+- work in VS Code ssh remore to Centos6 w/o sudo
+- get README.md about this and other general Linux stuff
+
 
 
 
