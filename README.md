@@ -3,8 +3,6 @@ Notes and tools to set up Ubuntu 18.04 development system with KVM etc.  This is
 
 ## Create USB Stick with Ubuntu 18
 
-To install Ubuntu:
-
 - download Ubuntu [here](http://releases.ubuntu.com/)
 - on Mac, used ["Etcher"](https://www.balena.io/etcher/) to burn image
 - (tried use micro SD for Raspberry Pi in holder, but that failed, recooment USB stick)
@@ -23,6 +21,9 @@ To install Ubuntu:
 
 ## Configure Display etc.
 
+The following [link](https://www.bonusbits.com/wiki/HowTo:Add_Missing_or_Custom_Display_Resolution_on_Ubuntu) shows how to add display setting for 1920 1080 resolution.  
+
+
 ## Install Basic Tools
 
 - Chrome
@@ -32,6 +33,8 @@ To install Ubuntu:
 ## Install VNC Remote Desktop
 
 ## Install VPN
+
+For some downloads it is nice to use a VPN to further encrpyt the traffic.  I currently use an open source VPN created by "Jigsaw" and sub company of Google.  It is very easy to set up on Digital Ocean and only cost s $5 per month.  This [link](https://getoutline.org/en/home) shows how to install the client software.  You will need to generate a key using the manger app, then cut/paste the key.  WARNING: enabling VPN will break a local VNC session.
 
 ## Install KVM
 
@@ -71,8 +74,6 @@ https://code.visualstudio.com/docs/setup/linux
 install chrome
 google chrome, download, run it
 
-vpn
-https://getoutline.org/en/home
 
 
 different desktops (try on kvm first)
@@ -94,9 +95,6 @@ arduino from vsocde
 
 via vscode?
 
-
-change display (for use with vnc)
-https://www.bonusbits.com/wiki/HowTo:Add_Missing_or_Custom_Display_Resolution_on_Ubuntu
 
 
 </pre>
