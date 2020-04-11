@@ -53,4 +53,8 @@ arduino from linux?
 via vscode?
 
 
+change display (for use with vnc)
+https://www.bonusbits.com/wiki/HowTo:Add_Missing_or_Custom_Display_Resolution_on_Ubuntu
+
+
 </pre>
