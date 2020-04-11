@@ -13,7 +13,7 @@ To install Ubuntu:
 - run thru normal install
 - did not configure Wifi or download during install (for simplicity)
 
-After the install and first boot:
+## After the Install and First Boot
 
 - (Wifi Settings from top right) enable wifi and enter credentials
 - (from Settings app) disable various power settings
@@ -21,6 +21,24 @@ After the install and first boot:
 - (terminal) sudo apt-get update
 - (terminal) sudo apt-get upgrade
 
+## Configure Display etc.
+
+## Install Basic Tools
+
+- Chrome
+- VS Code
+
+## Install KVM
+
+## Install Docker
+
+## Install Arduino IDE
+
+
+## Install Node and Puppeteer
+
+
+## TODO List for Other Setup
 
 <pre>
 
