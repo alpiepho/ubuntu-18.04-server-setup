@@ -23,6 +23,8 @@ Notes and tools to set up Ubuntu 18.04 development system with KVM etc.  This is
 
 The following [link](https://www.bonusbits.com/wiki/HowTo:Add_Missing_or_Custom_Display_Resolution_on_Ubuntu) shows how to add display setting for 1920 1080 resolution.  
 
+The default host name is pretty long and make the default terminal prompt long/complicated.  Looked into chaning the prompt, but found that shortening the host name was easier.  Here is the [link](https://linuxize.com/post/how-to-change-hostname-on-ubuntu-18-04/)
+
 
 ## Install Basic Tools
 
@@ -47,49 +49,36 @@ For some downloads it is nice to use a VPN to further encrpyt the traffic.  I cu
 
 ## Install KVM
 
+Look at [https://help.ubuntu.com/community/KVM/Installation](https://help.ubuntu.com/community/KVM/Installation). 
+
+Will need to relogin for groups
+
+
 ## Install Docker
 
+TBD
+
 ## Install Arduino IDE
+
+TBD
+<pre>
+arduino from linux?
+https://www.arduino.cc/en/guide/linux
+arduino from vsocde
+</pre>
 
 
 ## Install Node and Puppeteer
 
+TBD
+
 
 ## TODO List for Other Setup
 
-<pre>
-
-
-install kvm:
-https://help.ubuntu.com/community/KVM/Installation
-need to relogin for groups
-
-
-TODO:
-prompt
+- different desktops (try on kvm first)
+- setup kvm for kali (or virtualbox?)
+- install and try ansible
+- puppetteer?
 
 
 
-
-different desktops (try on kvm first)
-
-enable vnc (there is a trick that I cannot recall)
-
-setup kvm for kali (or virtualbox?)
-
-install and try ansible
-
-node
-
-puppetteer?
-
-arduino from linux?
-https://www.arduino.cc/en/guide/linux
-arduino from vsocde
-
-
-via vscode?
-
-
-
-</pre>
