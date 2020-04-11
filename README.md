@@ -1,5 +1,5 @@
 # ubuntu-18.04-server-setup
-Notes and tools to set up Ubuntu 18.04 development system with KVM etc.
+Notes and tools to set up Ubuntu 18.04 development system with KVM etc.  This is my chcklist for setting up Unbuntu for using ad a dev system and KVM, Docker, Ancible, etc.
 
 ## Create USB Stick with Ubuntu 18
 
