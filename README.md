@@ -74,7 +74,8 @@ arduino from vsocde
 ### Arduino ESP32 Board
 This is different board (the step up from the ESP8266) that supports Arduino programming.  On a Mac, this required a legacy driver.  On Linux:
 
-TBD
+https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/
+
 
 ## Install Node and Puppeteer
 
