@@ -54,7 +54,7 @@ Look at [https://help.ubuntu.com/community/KVM/Installation](https://help.ubuntu
 Will need to relogin for groups
 
 
-## Install Docker
+## Install Virtualbox
 
 TBD
 
@@ -74,8 +74,12 @@ arduino from vsocde
 ### Arduino ESP32 Board
 This is different board (the step up from the ESP8266) that supports Arduino programming.  On a Mac, this required a legacy driver.  On Linux:
 
-https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-mac-and-linux-instructions/
+https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_ubuntu.md
 
+
+## Install Docker
+
+TBD
 
 ## Install Node and Puppeteer
 
@@ -88,7 +92,6 @@ TBD
 - setup kvm for kali (or virtualbox?)
 - install and try ansible
 - puppetteer?
-- arduino IDE/VS Code with ESP32 board
 - work in VS Code ssh remore to Centos6 w/o sudo
 - get README.md about this and other general Linux stuff
 
