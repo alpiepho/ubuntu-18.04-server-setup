@@ -56,7 +56,26 @@ Will need to relogin for groups
 
 ## Install Virtualbox
 
-TBD
+I visited numerous websites to install Virtualbox and get it working.  Below are related commands from my history:
+
+<pre>
+  ...
+  164  wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+  165  wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+  166  sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
+  167  sudo apt update
+  168  sudo apt install virtualbox-6.0
+  169  sudo /usr/lib/virtualbox/vboxdrv.sh setup
+  170  sudo /sbin/vboxconfig
+  171  sudo /sbin/rcvboxdrv setup
+  172  sudo apt remove virtualbox-6.0
+  173  sudo apt remove virtualbox
+  174  sudo apt install virtualbox-6.0
+  175  sudo apt-get purge 'virtualbox*'
+  176  sudo apt install virtualbox-6.0
+  ...
+</pre>
+
 
 ## Install Arduino IDE
 
@@ -81,9 +100,31 @@ https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_u
 
 TBD
 
-## Install Node and Puppeteer
+## Install Node, npm, yarn
 
-TBD
+I can't recall the web site I found descibing this, but from my history this was very easy:
+
+<pre>
+  ...
+  132  sudo apt-get update
+  133  sudo apt-get install nodejs
+  134  sudo apt-get install npm
+  135  sudo apt-get install yarn
+  ...
+  151  sudo apt-get remove cmdtest
+  152  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  153  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+  154  sudo apt-get update
+  155  sudo apt-get install yarn
+  156  yarn -v
+  ...
+</pre>
+
+
+## Install Puppeteer
+
+  TBD
+
 
 
 ## TODO List for Other Setup
